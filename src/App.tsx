@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./firebase/config";
 import { Button, TextField } from "@mui/material";
 import { collection, getDocs, onSnapshot, query } from "firebase/firestore";
