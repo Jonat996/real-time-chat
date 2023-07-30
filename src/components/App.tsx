@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import "./firebase/config";
+import "../firebase/config";
 import { Button, TextField } from "@mui/material";
 import { collection, getDocs, onSnapshot, query } from "firebase/firestore";
-import { db } from "./firebase/config";
-import { addMessage } from "./firebase/register.manager";
+import { db } from "../firebase/config";
+import { addMessage } from "../firebase/register.manager";
 
 function App() {
   const [messages, setMessages] = useState<any>([]);
